@@ -1,1 +1,1 @@
-token="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"
+token = "<your access token here>"

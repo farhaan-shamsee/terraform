@@ -4,6 +4,6 @@ resource "github_repository" "terraform_test_repo" {
 
   visibility = "public"
 
-  auto_init = true  
+  auto_init = true
   #this creates a README.md file automatically
 }
