@@ -3,9 +3,9 @@ variable "ports" {
   #   default = [ 22, 80, 443 ]
 }
 
-variable "image_id" {
-  type = string
-}
+# variable "image_id" {
+#   type = string
+# }
 
 variable "instance_type" {
   type = string
@@ -18,3 +18,6 @@ variable "access_key" {
 variable "secret_key" {
   type = string
 }
+# variable "image_name" {
+#   type = string
+# }
